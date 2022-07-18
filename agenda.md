@@ -1,10 +1,20 @@
 Agenda for July 26 (Tuesday):
 - PyCharm
   - Presentation (@liamhuber)
-    - Create GitHub repository
-    - Checkout with pycharm project
-    - Move notebook into project
-    - Convert notebook into python module
+    - Homework check: verify that PyCharm is installed and has access to a pyiron-capable interpreter
+    - Download a demo notebook
+    - _New Project_
+      - Create a new project from scratch
+      - Move the notebook into project
+      - Create a python module inside the project
+    - _From Notebook To Module_
+      - Iteratively move code from the notebook into the module, and access it via imports in the notebook (Some more detail here once I've made the notebook, but sub-steps will make sure we practice relevant material in the learning objectives)
+    - _Development with Git_
+      - Clone `pyiron_continuum` onto local machine
+      - Check out `tutorial` branch
+      - Make a new branch off that
+      - Add an empty file to hold the workflow you will make later in the workshop
+      - Commit and push
   - Learning objectives:
     - Recognize and use Editor features: syntax highlighting, error highlighting, autocompletion
     - Navigate PyCharm using the Project and Structure tabs and by control-clicking
