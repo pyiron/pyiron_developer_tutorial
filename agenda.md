@@ -5,12 +5,12 @@ Agenda for July 26 (Tuesday):
     - Checkout with pycharm project
     - Move notebook into project
     - Convert notebook into python module
-  - Things people should learn:
-    - Navigation
-    - Editor (syntax highlighting, error highlighting, etc)
-    - Git (create, pull, commit, push, merge, fetch)
-    - Searching
-    - Refactoring tools
+  - Learning objectives:
+    - Recognize and use Editor features: syntax highlighting, error highlighting, autocompletion
+    - Navigate PyCharm using the Project and Structure tabs and by control-clicking
+    - Use Git from directly within PyCharm: create, pull, commit, push, ~merge~ (do later), fetch
+    - Know the difference between searching content by usage and by string matching and be able to do both
+    - Know where to find the refactoring tab, and use it for simple tasks like renaming variables
 - `pyiron_base` (@jan-janssen)
   - `Project`
   - `job.status`
