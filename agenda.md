@@ -28,6 +28,9 @@ Agenda for July 26 (Tuesday):
 
 Agenda for July 27 (Wednesday)
 - GitHub (Comments on PR, issues, review etc.) (@srmnitc)
+- Getting a dev environment setup on the cluster (@prmv)
+  - local check out of repositories
+  - remote and local debugging and profiling
 - Refactoring (@niklassiemer)
   - pycharm tools
   - pycharm highlighting
