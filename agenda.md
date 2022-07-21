@@ -12,7 +12,23 @@ Agenda for July 26 (Tuesday):
       - Walk through the notebook
     - _From Notebook To Module_
       - Create a python module inside the project
-      - Iteratively move code from the notebook into the module, and access it via imports in the notebook (Some more detail here once I've made the notebook, but sub-steps will make sure we practice relevant material in the learning objectives)
+      - Move functions to .py
+      - Walk through highlighting:
+        - Red -- we misnamed an internal variable! Hard to spot in notebook
+        - Yellow -- PyCharm automatically helps you follow PEP8 and other styles
+        - Greyed out -- Unused variables are easy to find
+      - Introduce find/replace in files to rename functions `XY_energy` -> `xy_energy`
+      - Introduce refactor menu: rename `XY_structure` to `xy_structure`
+      - Import in notebook and re-run
+      - Refactor out a minimization function
+        - Note extra variable highlighting on `host`
+        - Note tab completion for known (i.e. in-scope) variables
+      - Import in notebook, adjust, and re-run
+      - Add a master `binding_energy` method calling the other four
+        - Note "Structure" tab and show different ways to sort it
+        - Introduce "find usages", even though it's pretty trivial here
+      - Import in notebook, adjust, and re-run
+      - Note re-use of variables, ask about introducing pressure, or deleting existing jobs... time permitting we would introduce a class for this job
     - _Development with Git_
       - Clone `pyiron_continuum` onto local machine
       - Check out `tutorial` branch
