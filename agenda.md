@@ -45,6 +45,7 @@ Agenda for July 27 (Wednesday)
 Homework: before coming they should
 - go on google and know the following terms in the context of python: "function", "argument", "class", "method", "property", "module". Bonus term: "decorator"
 - install pycharm
+- install conda
 - install pyiron (`conda install pyiron`)
 
 Feel free to modify this post if necessary.
