@@ -31,7 +31,9 @@ Agenda for July 26 (Tuesday):
       - Import in notebook, adjust, and re-run
       - Note re-use of variables, ask about introducing pressure, or deleting existing jobs... time permitting we would introduce a class for this job
     - _Development with Git_
-      - Clone `pyiron_continuum` onto local machine
+      - Clone `pyiron_contrib` onto local machine
+      - Make a new project here from existing sources
+        - Show how to make PyCharm conda envs private/public
       - Check out `tutorial` branch
       - Make a new branch off that
       - Add an empty file to hold the workflow you will make later in the workshop
