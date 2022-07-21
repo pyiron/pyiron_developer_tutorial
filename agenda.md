@@ -19,6 +19,7 @@ Agenda for July 26 (Tuesday):
         - Greyed out -- Unused variables are easy to find
       - Introduce find/replace in files to rename functions `XY_energy` -> `xy_energy`
       - Introduce refactor menu: rename `XY_structure` to `xy_structure`
+        - Warning: Be careful with refactoring! It might operate on a wider scope than you expect. Show how to preview and how to read the preview
       - Import in notebook and re-run
       - Refactor out a minimization function
         - Note extra variable highlighting on `host`
