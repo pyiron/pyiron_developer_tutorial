@@ -16,6 +16,7 @@ Agenda for July 26 (Tuesday):
       - Add an empty file to hold the workflow you will make later in the workshop
       - Commit and push
   - Learning objectives:
+    - Manage your python (conda) environment from inside PyCharm
     - Recognize and use Editor features: syntax highlighting, error highlighting, autocompletion
     - Navigate PyCharm using the Project and Structure tabs and by control-clicking
     - Use Git from directly within PyCharm: create, pull, commit, push, ~merge~ (do later), fetch
