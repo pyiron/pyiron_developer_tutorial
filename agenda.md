@@ -1,16 +1,50 @@
 Agenda for July 26 (Tuesday):
 - PyCharm
   - Presentation (@liamhuber)
-    - Create GitHub repository
-    - Checkout with pycharm project
-    - Move notebook into project
-    - Convert notebook into python module
-  - Things people should learn:
-    - Navigation
-    - Editor (syntax highlighting, error highlighting, etc)
-    - Git (create, pull, commit, push, merge, fetch)
-    - Searching
-    - Refactoring tools
+    - Homework check: verify that PyCharm is installed and has access to a pyiron-capable interpreter
+    - Download a demo notebook
+    - _New Project_
+      - Create a new project from scratch
+        - Choose our pyiron conda env (or create a new env if they failed homework)
+        - Open "Python Packages" window and verify that the env uses `https://conda.anaconda.org/conda-forge/` as its only repository, and that the latest versions of `pyiron` and `jupyter` installed (or set and install if they failed homework)
+      - Move the notebook into project
+      - Launch jupyter from PyCharm terminal (or within PyCharm if you have pro version)
+      - Walk through the notebook
+    - _From Notebook To Module_
+      - Create a python module inside the project
+      - Move functions to .py
+      - Walk through highlighting:
+        - Red -- we misnamed an internal variable! Hard to spot in notebook
+        - Yellow -- PyCharm automatically helps you follow PEP8 and other styles
+        - Greyed out -- Unused variables are easy to find
+      - Introduce find/replace in files to rename functions `XY_energy` -> `xy_energy`
+      - Introduce refactor menu: rename `XY_structure` to `xy_structure`
+        - Warning: Be careful with refactoring! It might operate on a wider scope than you expect. Show how to preview and how to read the preview
+      - Import in notebook and re-run
+      - Refactor out a minimization function
+        - Note extra variable highlighting on `host`
+        - Note tab completion for known (i.e. in-scope) variables
+      - Import in notebook, adjust, and re-run
+      - Add a master `binding_energy` method calling the other four
+        - Note "Structure" tab and show different ways to sort it
+        - Introduce "find usages", even though it's pretty trivial here
+      - Import in notebook, adjust, and re-run
+      - Note re-use of variables, ask about introducing pressure, or deleting existing jobs... time permitting we would introduce a class for this job
+    - _Development with Git_
+      - Clone `pyiron_contrib` onto local machine
+      - Make a new project here from existing sources
+        - Show how to make PyCharm conda envs private/public
+      - Check out `tutorial` branch
+      - Make a new branch off that
+      - Add an empty file to hold the workflow you will make later in the workshop
+      - Commit and push
+  - Learning objectives:
+    - Manage your python (conda) environment from inside PyCharm
+    - Recognize and use Editor features: syntax highlighting, error highlighting, autocompletion
+    - Navigate PyCharm using the Project and Structure tabs and by control-clicking
+    - Use Git from directly within PyCharm: create, pull, commit, push, ~merge~ (do later), fetch
+    - Know the difference between searching content by usage and by string matching and be able to do both
+    - Know where to find the refactoring tab, and use it for simple tasks like renaming variables
 - `pyiron_base` (@jan-janssen)
   - `Project`
   - `job.status`
