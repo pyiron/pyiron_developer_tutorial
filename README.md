@@ -1,22 +1,21 @@
-# pyiron_developer_tutorial
+# pyiron developer tutorial July 2022
 This repository is made for the tutorial session on July 26-27.
 
-## Program
+## General agenda (for more info cf. agenda.md)
 
-July 26 (2pm - 6pm?)
+July 26 (Tuesday) 15:00 - 18:00 (?) on Zoom
 
-- We go through codes, explaining different aspects of pyiron, according to what new developers want to see
-- We can then assign different tasks to those who care about the classes
-- Talk about Fowler python coding (refactoring)
-- How to Git works and what is the right procedure to commit (docstring, tests etc.)
-- How PyCharm works
+- Introduction to pycharm (code editor)
+- Presentation of pyiron_base (i.e. general architecture of pyiron)
+- Presentation of different classes in pyiron_atomistics (LAMMPS, SPHInX, VASP, Murnaghan etc.)
+- Writing workflows
 
-July 27 (9am - 12pm?)
+July 27 (Wednesday) 9:00 - 12:00 (?) Hopefully hybrid meeting -> come to CM seminar room
 
-- We will have some real pyiron examples to work on
-- Creation of workflows?
-
-Comments:
-
-- If you can provide an extremely ugly code, it could be very helpful for Liam's refactoring session
-- For the hackathon to make sense, we would like you to be familiar with how pyiron works (from the user side) and think about what kind of topics, or even which pyiron classes you are interested in. Please write us a message so that we can talk about those topics in detail.
+- Workflow on GitHub
+- Getting a dev environment setup on the cluster
+- Refactoring, i.e. how to write beautiful python codes
+- Unit tests & Docstring
+- Peer-review of pull requests from the previous day
+- Introduction to easy issues
+- Discussion
