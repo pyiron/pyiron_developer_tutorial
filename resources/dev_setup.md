@@ -258,3 +258,12 @@ Guide lines:
    arguments that it does and what can go wrong.  What promises are made (if any) if it does.
 6. Add usage examples in the form of doctests! *Extremely* important for job classes and workflows.
    Nobody wants to read your code to figure out how to slot which thingie into what.
+
+
+## Debugging & Profiling
+
+The builtin [pdb](https://docs.python.org/3/library/pdb.html) should be your first stop for debugging.
+Jupyter also comes with an improved version [ipdb](https://github.com/gotcha/ipdb).
+In notebooks you can put `%debug` in front of a python line to start the debugger before the code starts running.
+
+I've written about [profiling](https://github.com/orgs/pyiron/teams/pyiron/discussions/66) before.
