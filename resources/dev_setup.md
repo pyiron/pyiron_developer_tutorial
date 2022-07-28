@@ -72,7 +72,7 @@ windows works via WSL).
 Works like a regular `mount` on linux, e.g.
 ```bash
 sshfs cmti: ~/remotes/cmti
--oidmap=user,follow_symlinks,auto_cache,reconnect,ServerAliveInterval=20,Compression=no,ControlMaster=no
+-o idmap=user,follow_symlinks,auto_cache,reconnect,ServerAliveInterval=20,Compression=no,ControlMaster=no
 ```
 
 The first argument `cmti:` comes from `host:path` and specifies what remote system to mount.
